@@ -1,0 +1,82 @@
+h1{
+    color: aqua;
+    background-color: blue;
+    font-family: monospace;
+    text-align: center;
+    top: auto;
+    font-size: 90px;
+}
+
+.pregunta{
+    color: brown;
+    background-color: wheat;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 75px;
+}
+
+.si{
+    color: red;
+    background-color: pink;
+    font-family: Helvetica, sans-serif;
+    width: 810px;
+    height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 45px;
+}
+
+.no{
+    color: blue;
+    background-color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 810px;
+    height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 45px;
+}
+
+.pregunta2{
+    color: blue;
+    background-color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 810px;
+    height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.gif{
+    width: 810px;
+    height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%); 
+}
+
+.gatito{
+    width: 810px;
+    height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%); 
+    /*Para que no se rompa en dos líneas, y lo translade tal cual*/
+}
+
+.mensaje{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: lightblue;
+    border-radius: 6px;
+    border: 2px solid blue;
+    text-align: center;
+    width: 400px;
+    transform: translateX(-50%);
+    margin-left: 40%;
+    /*  Para que no se rompa en dos líneas, y lo translade tal cual. 
+    */
+    
+}
