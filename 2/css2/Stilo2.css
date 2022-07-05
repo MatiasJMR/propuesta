@@ -1,6 +1,7 @@
+/*INDEX*/
+
 h1{
     color: aqua;
-    background-color: blue;
     font-family: monospace;
     text-align: center;
     top: auto;
@@ -8,17 +9,14 @@ h1{
     font-size: 90px;
 }
 
-.h1-2{
-    color: grey;
-    font-size: 90px;
-    text-align: center;
-    font-family: cursive;
-    background-color: white;
+.div{
+    width: auto;
+    height: auto;
+    background-color: blue;
 }
 
 .pregunta{
-    color: brown;
-    background-color: wheat;
+    color: red;
     text-align: center;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 75px;
@@ -26,7 +24,6 @@ h1{
 
 .si{
     color: red;
-    background-color: pink;
     font-family: Helvetica, sans-serif;
     width: 810px;
     height: auto;
@@ -36,14 +33,36 @@ h1{
 }
 
 .no{
-    color: blue;
-    background-color: blueviolet;
+    color: gray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 810px;
     height: auto;
     margin-left: 50%;
     transform: translateX(-50%);
     font-size: 45px;
+}
+
+/*NO.HTML*/
+
+.no2{
+    width: auto;
+    height: auto;
+    background-color: blanchedalmond;
+}
+
+.h1-2{
+    color: grey;
+    font-size: 90px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.gatito{
+    width: 810px;
+    height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%); 
+    /*Para que no se rompa en dos líneas, y lo translade tal cual*/
 }
 
 .pregunta2{
@@ -63,14 +82,6 @@ h1{
     transform: translateX(-50%); 
 }
 
-.gatito{
-    width: 810px;
-    height: auto;
-    margin-left: 50%;
-    transform: translateX(-50%); 
-    /*Para que no se rompa en dos líneas, y lo translade tal cual*/
-}
-
 .mensaje{
     text-decoration: none;
     padding: 10px;
@@ -86,6 +97,33 @@ h1{
     transform: translateX(-50%);
     margin-left: 40%;
     /*  Para que no se rompa en dos líneas, y lo translade tal cual. 
-    */
-    
+    */ 
+}
+
+/*SI.HTML*/
+
+.h1-3{
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.p{
+    color: red;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fondo{
+    width: auto;
+    height: auto;
+    background-color:pink;
+}
+
+.gif2{
+    width: 810px;
+    height: auto;
+    margin-left: 40%;
+    transform: translateX(-50%); 
 }
